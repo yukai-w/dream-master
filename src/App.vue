@@ -113,6 +113,7 @@ export default {
     <div class="font">{{ hit }}</div>
     <div class="result">{{result}}</div>
     <div>
+      <img class="icon" v-on:click="goTwitter" src="/twitter.jpg" />
       <img class="icon" v-on:click="goPump" src="/pump.jpg" />
     </div>
   </div>
