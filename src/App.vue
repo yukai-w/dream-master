@@ -6,6 +6,12 @@ import axios from 'axios';
 export default {
   name: 'MyComponent',
   methods: {
+    goTwitter() {
+      window.open('https://x.com/_dream_ai_sol');
+    },
+    goPump() {
+      window.open('https://pump.fun/');
+    },
     getData() {
       const { loading } = this.$data;
       if (loading) {
@@ -106,10 +112,21 @@ export default {
     </div>
     <div class="font">{{ hit }}</div>
     <div class="result">{{result}}</div>
+    <div>
+      <img class="icon" v-on:click="goPump" src="/pump.jpg" />
+    </div>
   </div>
 </template>
 
 <style scoped>
+.icon {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+.icon:hover {
+  cursor: pointer;
+}
 .result {
   width: 800px;
   min-height: 100px;
