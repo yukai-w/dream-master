@@ -47,10 +47,7 @@ export default {
         .request(config)
         .then((response) => {
           const result = response.data?.choices[0].message?.content;
-          // 循环从第一个字母开始，每次加一个长度，赋值给data.result
-          for(let i = 1; i++; i < result.length) {
-            that.$data.result = result.slice(0, i);
-          }
+          that.$data.result = result;
           this.$data.loading = false;
           this.$data.hit = 'Type your dream,and confirm.';
         })
