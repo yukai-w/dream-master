@@ -7,7 +7,7 @@ export default {
   name: 'MyComponent',
   methods: {
     goTwitter() {
-      window.open('https://x.com/_dream_ai_sol');
+      window.open('https://x.com/dream_solana_');
     },
     goPump() {
       window.open('https://pump.fun/');
