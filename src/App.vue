@@ -10,7 +10,7 @@ export default {
       window.open('https://x.com/DM_solana_');
     },
     goPump() {
-      window.open('https://pump.fun/');
+      window.open('https://pump.fun/coin/95nHHt9oDzdfV1v9aJkGMmoJW9DC3NaxP9wiAX54pump');
     },
     getData() {
       const { loading } = this.$data;
