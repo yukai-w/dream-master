@@ -7,7 +7,7 @@ export default {
   name: 'MyComponent',
   methods: {
     goTwitter() {
-      window.open('https://x.com/dream_solana_');
+      window.open('https://x.com/DM_solana_');
     },
     goPump() {
       window.open('https://pump.fun/');
@@ -74,16 +74,16 @@ export default {
       
       const typed = new Typed(el.value, {
         strings: [
-          'I will help you analyze your dreams.',
-          'Your dreams hold clues to your reality.',
-          'Every dream has a hidden message for you.',
-          'Unravel the mystery of your dreams with my analysis.',
-          'Discover the connection between dreams and your daily life.',
-          'Let me interpret your dreams and unveil their meanings.',
-          'Dreams bridge the gap between fantasy and reality.',
-          'The secrets of your dreams can reveal real-life insights.',
-          'Decode the symbols in your dreams to understand your life.',
-          'Explore how your dreams relate to your waking world.'
+'I will help you analyze your dreams.',
+'Your dreams hold clues to your reality.',
+'Every dream has a hidden message for you.',
+'Unravel the mystery of your dreams with my analysis.',
+'Discover the connection between dreams and your daily life.',
+'Let me interpret your dreams and unveil their meanings.',
+'Dreams bridge the gap between fantasy and reality.',
+'The secrets of your dreams can reveal real-life insights.',
+'Decode the symbols in your dreams to understand your life.',
+'Explore how your dreams relate to your waking world.'
         ],
         typeSpeed: 50,
       });
